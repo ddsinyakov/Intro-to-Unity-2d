@@ -14,6 +14,6 @@ public class HexagonLeft : MonoBehaviour
     void Update()
     {
         this.transform
-            .Rotate(Vector3.forward, 1);       // Вращение | Вокруг вектора 3 | (Z) Градусы
+            .Rotate(Vector3.forward, 0.2f);       // Вращение | Вокруг вектора 3 | (Z) Градусы
     }
 }

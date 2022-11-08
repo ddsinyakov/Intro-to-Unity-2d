@@ -14,6 +14,6 @@ public class HexagonRight : MonoBehaviour
     void Update()
     {
         this.transform
-            .Rotate(Vector3.back, 1);
+            .Rotate(Vector3.back, 0.2f);
     }
 }
